@@ -1,4 +1,4 @@
-package learning.bigdata.spark.core.rdd.acc;
+package learning.bigdata.spark.core.acc;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;

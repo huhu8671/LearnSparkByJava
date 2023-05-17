@@ -1,6 +1,6 @@
-package learning.bigdata.spark.core.rdd.operator.test;
+package learning.bigdata.spark.core.test;
 
-import learning.bigdata.spark.core.rdd.bean.ClickOrderOfferSort;
+import learning.bigdata.spark.core.bean.ClickOrderOfferSort;
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
@@ -13,6 +13,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.function.Consumer;
 
+/**
+ * reduceByKey实现需求一
+ */
 public class SparkReq1 {
     public static void main(String[] args) {
         SparkConf sparkConf = new SparkConf();

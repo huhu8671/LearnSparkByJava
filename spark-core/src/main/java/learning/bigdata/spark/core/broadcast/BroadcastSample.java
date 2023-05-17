@@ -1,4 +1,4 @@
-package learning.bigdata.spark.core.rdd.broadcast;
+package learning.bigdata.spark.core.broadcast;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;

@@ -1,4 +1,4 @@
-package learning.bigdata.spark.core.rdd.operator.test;
+package learning.bigdata.spark.core.test;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaRDD;

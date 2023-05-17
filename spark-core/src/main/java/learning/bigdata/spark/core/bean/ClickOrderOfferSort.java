@@ -1,4 +1,4 @@
-package learning.bigdata.spark.core.rdd.bean;
+package learning.bigdata.spark.core.bean;
 
 import scala.math.Ordered;
 
@@ -14,6 +14,18 @@ public class ClickOrderOfferSort implements Ordered<ClickOrderOfferSort>, Serial
     public ClickOrderOfferSort(int clicks, int orders, int payments) {
         this.clicks = clicks;
         this.orders = orders;
+        this.payments = payments;
+    }
+
+    public void setClicks(int clicks) {
+        this.clicks = clicks;
+    }
+
+    public void setOrders(int orders) {
+        this.orders = orders;
+    }
+
+    public void setPayments(int payments) {
         this.payments = payments;
     }
 
