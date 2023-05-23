@@ -1,4 +1,0 @@
-hello word
-hello flink
-goodbye MR
-hello spark
